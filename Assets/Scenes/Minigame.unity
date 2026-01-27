@@ -3683,7 +3683,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 19792fbe56783df478e610a3395e53f9,
         type: 3}
       propertyPath: m_Name
-      value: 'Assult Rifel 2 '
+      value: Paint Gun
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3744,7 +3744,7 @@ MonoBehaviour:
   shootPoint: {fileID: 1388066727}
   shootForce: 10
   triggerAction:
-    actionPath: /actions/default/in/InteractUI
+    actionPath: /actions/default/in/GrabGrip
     needsReinit: 0
 --- !u!1001 &1459882839
 PrefabInstance:
@@ -5076,6 +5076,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Paint
+      objectReference: {fileID: 0}
+    - target: {fileID: 4435717595571720838, guid: fec5f939ff853864988ce9175176a01f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd2719b5285f1934592af47b83caf323, type: 2}
+    - target: {fileID: 4925307738498722602, guid: fec5f939ff853864988ce9175176a01f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.29618454
+      objectReference: {fileID: 0}
+    - target: {fileID: 4925307738498722602, guid: fec5f939ff853864988ce9175176a01f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.29618454
+      objectReference: {fileID: 0}
+    - target: {fileID: 4925307738498722602, guid: fec5f939ff853864988ce9175176a01f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.29618454
       objectReference: {fileID: 0}
     - target: {fileID: 4925307738498722602, guid: fec5f939ff853864988ce9175176a01f,
         type: 3}

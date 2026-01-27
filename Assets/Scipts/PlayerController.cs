@@ -45,6 +45,13 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void Add(int amount)
+    {
+        count += amount;
+        SetCountText();
+    }
+
+
     void FixedUpdate()
     {
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
